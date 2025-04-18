@@ -1,11 +1,5 @@
 <title> Contact</title>
-<nav>
-    <a href="../index.html">Home</a>
-    <a href="../projects/index.html">Projects</a>
-    <a href="../contact/index.html" class="current" >Contact</a>
-    <a href="../resume/index.html">Resume</a>
-    <a href="https://github.com/vermastutz" target="_blank">GitHub</a>
-  </nav>
+
 <h1>Contact Form</h1>
 
 <head>
@@ -15,26 +9,18 @@
 
 
 <body>
-    <form action="mailto:stverma@ucsd.edu" method="GET" enctype="text/plain">
-        <label>
-          Your Email:
-          <input type="email" name="email" value="user@example.com">
-        </label>
-        <br><br>
-      
+    <form action="mailto: stuti.verma.2004@gmail.com" method="GET" id="contact-form">
         <label>
           Subject:
-          <input name="subject" value="subject">
+          <input name="subject" required>
         </label>
-        <br><br>
-      
         <label>
           Message:
-          <textarea name="body">message</textarea>
+          <textarea name="body" required></textarea>
         </label>
-        <br><br>
-      
         <button>Send</button>
       </form>
+
+      <script src="../global.js" type="module"></script>
 </body>
 

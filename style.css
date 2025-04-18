@@ -1,16 +1,41 @@
-body {
+:root {
+    color-scheme: light dark;
+    color: canvastext;
+  }
+  
+  body {
+    background-color: canvas;
+    color: canvastext;
+    font-family: system-ui;
+    line-height: 1.5;
+    padding: 2rem;
+  }
+
+
+  body {
     font: 100%/1.5 system-ui;
     max-width: 100ch;
     margin-inline: auto;
     padding-inline: 1em;
-
+    background-color: canvas;
+    color: canvastext;
   }
   nav {
     display: flex;
-    justify-content: space-around; 
-    border-bottom: 1px solid oklch(80% 3% 200); 
+    justify-content: space-around;
+    background-color: canvas;
+    border-bottom: 1px solid var(--border-color);
     margin-bottom: 1em;
-    background-color: #f9f9f9; 
+    padding: 0.5em;
+  }
+  nav a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  nav {
+    --border-color: oklch(50% 10% 200 / 40%);
+    border-bottom: 1px solid var(--border-color);
   }
   
   nav a {
@@ -35,7 +60,7 @@ body {
   
   nav a:hover {
     border-bottom: 0.4em solid var(--color-accent);
-    background-color: oklch(from var(--color-accent) 95% 5% h);
+    background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
   }
   
   input,
@@ -79,12 +104,14 @@ form {
   h1 {
     font-size: 3rem;  
     margin-bottom: 1rem;
+    color: canvastext;
   }
   
   
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
     text-wrap: balance;
+    color: canvastext;
   }
 
   .projects img {
@@ -98,7 +125,7 @@ form {
     color: #444;
   }
 
-  /* Give each section a card-like feel */
+ 
 section {
     background-color: #f9f9f9;
     padding: 1.5em;
@@ -107,22 +134,28 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   }
   
-  /* Make job/project entries clean and readable */
+  
   article {
     margin-top: 1em;
     padding-bottom: 1em;
     border-bottom: 1px dashed #ccc;
   }
   
-  /* Emphasize headings */
+
   h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: canvastext;
   }
-  
+  section > h2 {
+    border-left: 4px solid var(--color-accent);
+    padding-left: 0.5em;
+    color: canvastext;  
+  }
   h2 {
     font-size: 1.5rem;
     margin-bottom: 0.5em;
+    color: canvastext;
   }
   
   h3 {
@@ -131,13 +164,13 @@ section {
     color: #333;
   }
   
-  /* Date formatting */
+
   time {
     font-style: italic;
     color: #777;
   }
   
-  /* List and paragraph spacing */
+
   ul {
     padding-left: 1.5em;
   }
@@ -151,9 +184,31 @@ section {
     color: #333;
   }
   
-  /* Optional: Add a little accent to section headers */
-  section > h2 {
-    border-left: 4px solid var(--color-accent);
-    padding-left: 0.5em;
+  #resume,
+  #resume * {
+    color: #000 !important;
+    
   }
   
+
+  .color-scheme {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 0.85rem;
+    font-family: inherit;
+    background: canvas;
+    padding: 0.5em;
+    border-radius: 6px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .color-scheme select {
+    font: inherit;
+    margin-left: 0.5em;
+  }
+
+
+
+
