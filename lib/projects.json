@@ -1,8 +1,9 @@
 [
     {
         "title": "Power Outages in the US",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quam nam error vitae alias et iusto, doloremque praesentium ea consectetur possimus quod amet unde temporibus odio debitis inventore sed illo!"
+        "year": 2024,
+        "image": "https://vermastutz.github.io/US-Power-Outages/",
+        "description": "Analyzed and cleaned a dataset of US power outages, built a prediction model to estimate outage duration, developed a regression model evaluated by RMSE, created a static website with Jekyll and interactive visualizations, and conducted a fairness analysis to ensure unbiased performance across regions and customers."
     },
     {
         "title": "Voluptatibus ea veniam eius?",
