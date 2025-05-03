@@ -1,27 +1,34 @@
 [
     {
+        "title": "Diabetes Prediction Model",
+        "year": 2025,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Developed a machine learning model to predict diabetes onset using XGBoost and Random Forest. Performed extensive data preprocessing, feature engineering, and hyperparameter tuning to optimize model performance. Achieved significant improvements in prediction accuracy by addressing class imbalance and refining key health indicators."
+    },
+    {
+        "title": "Airbnb Price Prediction Model",
+        "year": 2025,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Built an XGBoost regression model to predict Airbnb listing prices using NYC dataset with 60+ features. Performed feature engineering, log transformations, and validation tuning to reduce RMSE to 87, outperforming the baseline by over 20%. Engineered new variables like review recency and extra guest fees to improve accuracy."
+    },
+    {
+        "title": "Impact of AI on the Workforce",
+        "year": 2025,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Analyzed AI adoption and its effects on the labor market using data from kaggle and Stanford AI Index. Conducted hypothesis testing and regression analysis to assess salary impacts, automation risk, and job growth projections. Built classification models (Logistic Regression, SVM) and regression models (OLS, SVR) to predict job automation risk and salary trends."
+
+    },
+    {
         "title": "Power Outages in the US",
         "year": 2024,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "image": "../images/power_outages_US.png",
         "description": "Analyzed and cleaned a dataset of US power outages, built a prediction model to estimate outage duration, developed a regression model evaluated by RMSE, created a static website with Jekyll and interactive visualizations, and conducted a fairness analysis to ensure unbiased performance across regions and customers."
     },
     {
-        "title": "Voluptatibus ea veniam eius?",
-        "year": 2023,
+        "title": "Tesla Equity Valuation",
+        "year": 2024,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Cumque odit voluptas a magnam recusandae qui dolor tempora voluptatum eaque pariatur. A architecto aut nobis unde natus cupiditate, sint beatae, voluptatem vitae magnam eligendi ipsam facilis accusantium dolore odio."
-    },
-    {
-        "title": "Sapiente nemo nesciunt accusamus.",
-        "year": 2023,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Sunt quidem placeat odio minima. Reprehenderit corrupti, odit iste vitae reiciendis laboriosam placeat distinctio consequuntur ipsam quae nobis neque hic culpa alias numquam repellendus aliquid fugit sed eaque. Laborum, quae!"
-    },
-    {
-        "title": "Voluptatibus laudantium rerum neque?",
-        "year": 2023,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "At sunt incidunt, aspernatur ex autem, recusandae assumenda nemo labore laborum architecto nisi? Eum ipsa amet error? Ducimus quidem vel quos eius aut. Unde numquam maxime sit, non maiores autem."
+        "description": "Conducted a fundamental equity valuation of Tesla Inc. using base, upside, and downside scenarios based on analyst reports and management forecasts. Estimated a base case stock price of $86.85, with a valuation range between $59.15 and $133.59, highlighting discrepancies with the current market price driven by investor sentiment and growth expectations."
     },
     {
         "title": "Ducimus delectus facilis sunt.",
@@ -64,11 +71,5 @@
         "year": 2020,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Est quidem iusto non enim reprehenderit impedit architecto voluptatibus, dolorum debitis. Ratione, iusto. Consequatur officia incidunt est, ratione ipsam similique itaque pariatur. Corporis vel nostrum soluta eius error voluptatum voluptatem!"
-    },
-    {
-        "title": "Vero quo consectetur nemo!",
-        "year": 2019,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Ratione, expedita. Dolores nam ut aperiam vel incidunt inventore consequatur aliquid nisi asperiores cum. Blanditiis perferendis aliquam tenetur reiciendis, dolor cumque ut ipsam quod earum consectetur, vero corporis. Accusantium, provident."
     }
 ]

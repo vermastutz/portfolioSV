@@ -227,3 +227,135 @@ section {
     margin: 0;
   }
 
+  .projects article {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-bottom: 2em;
+  }
+  
+  .project-card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-year {
+    margin: 0.3em 0 0.5em;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .project-description {
+    margin: 0;
+  }
+
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .projects article {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  
+  .projects h2 {
+    min-height: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  .projects img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5em;
+  }
+  
+  .projects em {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  .projects p {
+    flex-grow: 1;
+  }
+  
+  #projects-pie-plot {
+    max-width: 20em;
+    margin-block: 2em;
+  
+    overflow: visible;
+  }
+
+  ul.legend {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+    gap: 1em;
+    margin-block: 2em;
+    padding: 1em;
+    border: 1px solid #ccc;
+  }
+  
+  ul.legend li {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-family: sans-serif;
+  }
+  
+  .swatch {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background: var(--color);
+    border-radius: 0.25em;
+  }
+
+  .chart-container {
+    display: flex;
+    gap: 2em;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-block: 2em;
+  }
+  
+  #projects-pie-plot {
+    max-width: 20em;
+    overflow: visible;
+    flex-shrink: 0;
+  }
+
+  .legend {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+    gap: 1em;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 0;
+    list-style: none;
+  }
+  
+
+  #projects-pie-plot:has(path:hover) path:not(:hover) {
+    opacity: 0.5;
+  }
+  
+  #projects-pie-plot path {
+    transition: 300ms;
+    cursor: pointer;
+  }
+
+  .selected {
+    --color: black !important;
+  }
+  
+  .selected:is(path) {
+    fill: var(--color);
+  }
+  
+  .legend li.selected {
+    font-weight: bold;
+    border: 1px solid var(--color);
+  }
