@@ -1,19 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
   <title>Meta</title>
   <link rel="stylesheet" href="../style.css" />
   <script src="../global.js" type="module" defer></script>
-</head>
 
 <body>
-  <nav></nav>
-
-  <h1>Meta</h1>
+<h1>Meta</h1>
   <p>This page shows stats about the code of this website.</p>
 
-  <!-- More content will go here -->
+<div id="stats"></div>
+<script src="main.js" type="module"></script>
+
+<h2>Commits by time of day</h2>
+<div id="chart"></div>
+<dl id="commit-tooltip" class="info tooltip" hidden>
+    <dt>Commit</dt>
+    <dd><a href="" id="commit-link" target="_blank"></a></dd>
+  
+    <dt>Date</dt>
+    <dd id="commit-date"></dd>
+  
+    <dt>Time</dt>
+    <dd id="commit-time"></dd> 
+  
+    <dt>Author</dt>
+    <dd id="commit-author"></dd>
+  
+    <dt>Lines Edited</dt>
+    <dd id="commit-lines"></dd>
+  </dl>
+  <p id="selection-count">No commits selected</p>
+  <dl id="language-breakdown" class="stats"></dl>
+
 </body>
 </html>

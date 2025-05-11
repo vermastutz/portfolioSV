@@ -359,3 +359,95 @@ section {
     font-weight: bold;
     border: 1px solid var(--color);
   }
+
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 1em;
+    text-align: center;
+    margin-top: 1em;
+  }
+  
+  .stats dt {
+    grid-row: 1;
+    opacity: 0.6;
+    font-size: 1rem;
+  }
+  
+  .stats dd {
+    grid-row: 2;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .gridlines line {
+    stroke: currentColor;
+    opacity: 0.2;
+  }
+  
+  .gridlines path {
+    display: none;
+  }
+  
+
+  dl.tooltip {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 0.5em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    padding: 1em;
+    font-size: 0.85em;
+    z-index: 10;
+  }
+  
+  dl.tooltip[hidden] {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease;
+  }
+  
+  dl.tooltip:not([hidden]) {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  dl.tooltip dt {
+    font-weight: bold;
+    margin-top: 0.5em;
+  }
+  
+  dl.tooltip dd {
+    margin: 0;
+  }
+  
+  circle {
+    transition: 200ms;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  circle:hover {
+    transform: scale(1.5);
+  }
+  
+  @keyframes marching-ants {
+    to {
+      stroke-dashoffset: -8; 
+    }
+  }
+  
+  .selection {
+    fill-opacity: 0.1;
+    stroke: black;
+    stroke-opacity: 0.7;
+    stroke-dasharray: 5 3;
+    animation: marching-ants 2s linear infinite;
+  }
+
+  circle.selected {
+    fill: #ff6b6b;
+  }
