@@ -1,4 +1,15 @@
 [
+    
+    
+    
+    
+    {
+        "title": "🚴🏼‍♀️ BikeMap",
+        "year": 2025,
+        "image": "../images/image.png",
+        "description": "Interactive map showing bike traffic across Boston and Cambridge with time filtering and traffic direction visualization.",
+        "url": "https://vermastutz.github.io/bikemap/"
+      },
     {
         "title": "Diabetes Prediction Model",
         "year": 2025,
@@ -65,11 +76,6 @@
         "year": 2021,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Aut dicta dignissimos ut quasi officia expedita, similique mollitia voluptatibus sapiente. Libero atque doloribus aperiam. Sapiente voluptates obcaecati tenetur in, reiciendis totam praesentium sed minima, consequatur molestias possimus aliquid autem."
-    },
-    {
-        "title": "Enim hic quis sed.",
-        "year": 2020,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Est quidem iusto non enim reprehenderit impedit architecto voluptatibus, dolorum debitis. Ratione, iusto. Consequatur officia incidunt est, ratione ipsam similique itaque pariatur. Corporis vel nostrum soluta eius error voluptatum voluptatem!"
     }
+
 ]
