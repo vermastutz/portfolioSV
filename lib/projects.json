@@ -2,14 +2,27 @@
     
     
     
-    
+    {
+        "title": "Music For Memory",
+        "year": 2025,
+        "image": "../images/music_image.png",
+        "description": "Music for Memory is an interactive data visualization project that explores how different types of music affect memory and stress responses. The project includes a user-driven memory quiz and dynamic D3.js visualizations to uncover individual cognitive patterns. Our goal was to personalize study music recommendations based on behavioral and physiological insights.",
+        "url": "https://tejassmani.github.io/memory-music/"
+    },
     {
         "title": "🚴🏼‍♀️ BikeMap",
         "year": 2025,
-        "image": "../images/image.png",
+        "image": "../images/bike_image.png",
         "description": "Interactive map showing bike traffic across Boston and Cambridge with time filtering and traffic direction visualization.",
         "url": "https://vermastutz.github.io/bikemap/"
       },
+    {
+        "title": "Diabetes Risk Detection",
+        "year": 2025,
+        "image": "../images/heartbeat_image.png",
+        "description": "An interactive data visualization project that investigates whether wearable device (eg. Apple watch) data, specifically heart rate patterns, can indicate diabetes risk. This project analyzes how heart rate trends differ between non-diabetic and prediabetic individuals, highlighting patterns such as the dawn phenomenon. Built with D3.js.",
+        "url": "https://willemdehaan.github.io/project_3/"
+    },
     {
         "title": "Diabetes Prediction Model",
         "year": 2025,
@@ -42,12 +55,6 @@
         "description": "Conducted a fundamental equity valuation of Tesla Inc. using base, upside, and downside scenarios based on analyst reports and management forecasts. Estimated a base case stock price of $86.85, with a valuation range between $59.15 and $133.59, highlighting discrepancies with the current market price driven by investor sentiment and growth expectations."
     },
     {
-        "title": "Ducimus delectus facilis sunt.",
-        "year": 2023,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Exercitationem ab minus iste, esse accusamus deleniti voluptatem. Dignissimos laboriosam veritatis sequi sed soluta doloremque doloribus placeat. Autem, atque cupiditate quod at eius ipsum id, inventore debitis doloribus a corrupti?"
-    },
-    {
         "title": "Fuga enim ut velit.",
         "year": 2022,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
@@ -70,12 +77,6 @@
         "year": 2021,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Maiores quos id nesciunt error quae asperiores nihil sint, eligendi repudiandae earum excepturi quidem aperiam autem quo quod iure deleniti ratione harum dignissimos veniam consequuntur ducimus odit laborum! Distinctio, nisi."
-    },
-    {
-        "title": "Eos unde tempore ipsa.",
-        "year": 2021,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Aut dicta dignissimos ut quasi officia expedita, similique mollitia voluptatibus sapiente. Libero atque doloribus aperiam. Sapiente voluptates obcaecati tenetur in, reiciendis totam praesentium sed minima, consequatur molestias possimus aliquid autem."
     }
 
 ]
