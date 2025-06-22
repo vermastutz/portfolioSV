@@ -451,3 +451,22 @@ section {
   circle.selected {
     fill: #ff6b6b;
   }
+
+  label {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5em;
+    margin-bottom: 1em;
+  }
+  
+  #commit-time {
+    margin-left: auto;
+    font-style: italic;
+    color: var(--gray-600);
+  }
+
+  #commit-progress {
+    flex: 1;             /* allow it to grow inside the label */
+    min-width: 800px;    /* or larger, depending on screen */
+    max-width: 1000px;    /* prevent it from growing too large */
+  }
